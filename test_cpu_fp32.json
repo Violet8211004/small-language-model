@@ -1,0 +1,26 @@
+{
+  "bpb": 1.6035769601211076,
+  "token_ppl": 28.565001480136814,
+  "nll_nats": 1436091.6342377663,
+  "targets": 428405,
+  "utf8_bytes": 1292013,
+  "seconds": 62.97893299999123,
+  "protocol": "7506-mp1-wt2-v2",
+  "split": "test",
+  "precision": "fp32",
+  "checkpoints": [
+    "runs\\e09-best-16800\\checkpoint_best.pt",
+    "runs\\e11-best-seed23\\checkpoint_best.pt",
+    "runs\\e12-best-seed42\\checkpoint_best.pt"
+  ],
+  "weights": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "temperatures": [
+    1.03,
+    1.03,
+    1.03
+  ]
+}
